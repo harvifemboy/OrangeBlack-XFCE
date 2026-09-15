@@ -89,4 +89,4 @@ The repository is intended to contain only `#FFA500` and `#000000` as explicit c
 
 ## License
 
-This project is distributed under the MIT License.
+MIT - Do whatever the fuck you want with it.
