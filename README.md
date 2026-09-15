@@ -1,4 +1,4 @@
-# OrangeBlack Xfce
+# OrangeBlack Xfce, a theme inspired by a certain Hub, made specially for my beloved boyfriend Harvi
 
 OrangeBlack is a deliberately severe Xfce desktop theme built around exactly two colors:
 
