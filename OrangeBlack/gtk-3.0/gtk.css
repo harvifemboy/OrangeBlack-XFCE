@@ -1,0 +1,207 @@
+* {
+  color: #FFA500;
+  background-color: #000000;
+  border-color: #FFA500;
+  outline-color: #FFA500;
+  caret-color: #FFA500;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+window,
+dialog,
+popover,
+menu,
+.menu,
+tooltip,
+.view,
+.view text,
+.view textview,
+textview,
+entry,
+button,
+spinbutton,
+combobox,
+notebook,
+notebook > stack,
+scrolledwindow,
+frame,
+viewport,
+headerbar,
+toolbar,
+menubar,
+statusbar,
+.sidebar,
+.sidebar-row,
+headerbar .titlebutton {
+  background: #000000;
+  color: #FFA500;
+  border-color: #FFA500;
+  background-image: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+button:hover,
+button:focus,
+button:active,
+entry:focus,
+spinbutton:focus,
+combobox:focus,
+notebook tab:checked,
+.view:selected,
+.view row:selected,
+.view row:selected:focus,
+.view text:selected,
+textview text:selected,
+selection,
+menuitem:hover,
+.menuitem:hover,
+checkbutton:hover,
+radiobutton:hover,
+scale highlight,
+progressbar progress,
+levelbar block.filled,
+trough progress,
+scrollbar slider:hover,
+scrollbar slider:active {
+  background: #FFA500;
+  color: #000000;
+  border-color: #FFA500;
+  background-image: none;
+  box-shadow: none;
+}
+
+button,
+entry,
+spinbutton,
+combobox,
+notebook tab,
+scrollbar slider,
+frame,
+separator,
+menu,
+menuitem,
+popover,
+toolbar,
+headerbar,
+statusbar {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0;
+}
+
+entry,
+textview,
+.view,
+list,
+treeview,
+iconview,
+terminal-window {
+  caret-color: #FFA500;
+  selection-background-color: #FFA500;
+  selection-color: #000000;
+}
+
+scale trough,
+progressbar trough,
+levelbar trough,
+scrollbar trough,
+separator,
+frame > border,
+notebook > header {
+  background: #000000;
+  border-color: #FFA500;
+}
+
+checkbutton check,
+radiobutton radio,
+checkbutton check:checked,
+radiobutton radio:checked {
+  background: #000000;
+  border: 2px solid #FFA500;
+  color: #FFA500;
+  box-shadow: none;
+}
+
+checkbutton check:checked,
+radiobutton radio:checked,
+checkbutton check:hover,
+radiobutton radio:hover {
+  background: #FFA500;
+  color: #000000;
+}
+
+scrollbar slider {
+  background: #FFA500;
+  min-width: 12px;
+  min-height: 12px;
+}
+
+progressbar progress,
+levelbar block.filled,
+scale highlight {
+  background: #FFA500;
+}
+
+tooltip {
+  border: 1px solid #FFA500;
+}
+
+#XfceNotifyWindow {
+  background: #000000;
+  color: #FFA500;
+  border: 2px solid #FFA500;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.xfce4-panel,
+.xfce4-panel.background,
+#xfce4-panel,
+.xfce4-panel button,
+.xfce4-panel .tasklist button,
+.xfce4-panel .launcher,
+.xfce4-panel .clock,
+.xfce4-panel .workspace-switcher,
+.xfce4-panel .actions,
+.xfce4-panel menu,
+.xfce4-panel menuitem {
+  background: #000000;
+  color: #FFA500;
+  border-color: #FFA500;
+  background-image: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.xfce4-panel button:hover,
+.xfce4-panel .tasklist button:checked,
+.xfce4-panel .tasklist button:active,
+.xfce4-panel .launcher:hover,
+.xfce4-panel menuitem:hover {
+  background: #FFA500;
+  color: #000000;
+  border-color: #FFA500;
+}
+
+ThunarWindow,
+ThunarWindow treeview,
+ThunarWindow .standard-view,
+ThunarWindow .sidebar,
+ThunarWindow .location-button,
+ThunarWindow .path-bar {
+  background: #000000;
+  color: #FFA500;
+  border-color: #FFA500;
+  background-image: none;
+}
+
+ThunarWindow .view:selected,
+ThunarWindow .sidebar:selected,
+ThunarWindow .location-button:hover,
+ThunarWindow .path-bar button:hover {
+  background: #FFA500;
+  color: #000000;
+  border-color: #FFA500;
+}

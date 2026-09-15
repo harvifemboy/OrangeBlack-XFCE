@@ -1,0 +1,25 @@
+style "global" {
+  fg[NORMAL] = "#FFA500"
+  fg[ACTIVE] = "#FFA500"
+  fg[PRELIGHT] = "#000000"
+  fg[SELECTED] = "#000000"
+  fg[INSENSITIVE] = "#000000"
+  bg[NORMAL] = "#000000"
+  bg[ACTIVE] = "#FFA500"
+  bg[PRELIGHT] = "#FFA500"
+  bg[SELECTED] = "#FFA500"
+  bg[INSENSITIVE] = "#000000"
+  text[NORMAL] = "#FFA500"
+  text[ACTIVE] = "#FFA500"
+  text[PRELIGHT] = "#000000"
+  text[SELECTED] = "#000000"
+  text[INSENSITIVE] = "#000000"
+  base[NORMAL] = "#000000"
+  base[ACTIVE] = "#FFA500"
+  base[PRELIGHT] = "#FFA500"
+  base[SELECTED] = "#FFA500"
+  base[INSENSITIVE] = "#000000"
+  engine "clearlooks" {
+  }
+}
+class "*" style "global"

@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=OrangeBlack
+Comment=Pure orange and black Xfce theme
+Encoding=UTF-8
+
+[Xfce UI]
+Name=OrangeBlack
+
+[Gtk]
+Name=OrangeBlack
+
+[Xfwm4]
+Name=OrangeBlack
+
+[Xfce Notify]
+Name=OrangeBlack
