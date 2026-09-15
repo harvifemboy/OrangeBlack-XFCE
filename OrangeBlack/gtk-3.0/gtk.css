@@ -9,7 +9,6 @@
 }
 
 window,
-dialog,
 popover,
 menu,
 .menu,
@@ -40,6 +39,28 @@ headerbar .titlebutton {
   background-image: none;
   box-shadow: none;
   text-shadow: none;
+}
+
+dialog {
+  background: transparent;
+  background-color: transparent;
+  background-image: none;
+}
+
+dialog > box:not(.dialog-vbox) {
+  background: #000000;
+  color: #FFA500;
+  border-color: #FFA500;
+  background-image: none;
+  box-shadow: none;
+}
+
+dialog box.dialog-vbox,
+dialog box.dialog-vbox > box {
+  background: transparent;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
 }
 
 button:hover,
@@ -204,4 +225,53 @@ ThunarWindow .path-bar button:hover {
   background: #FFA500;
   color: #000000;
   border-color: #FFA500;
+}
+.xfce4-panel.background .tasklist button,
+.xfce4-panel.background .tasklist button.flat,
+.xfce4-panel.background .tasklist button:active,
+.xfce4-panel.background .tasklist button:checked,
+.xfce4-panel.background .tasklist button:hover,
+.xfce4-panel.background .tasklist button:checked:hover,
+.xfce4-panel.background .tasklist button:active:hover {
+  background-color: #000000;
+  background-image: none;
+  color: #FFA500;
+  border-color: #FFA500;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.xfce4-panel.background .tasklist button:checked,
+.xfce4-panel.background .tasklist button:active {
+  background-color: #FFA500;
+  color: #000000;
+  border-color: #FFA500;
+}
+
+.xfce4-panel.background .tasklist button label,
+.xfce4-panel.background .tasklist button:checked label,
+.xfce4-panel.background .tasklist button:active label,
+.xfce4-panel.background .tasklist button:hover label,
+.xfce4-panel.background .tasklist button:checked:hover label,
+.xfce4-panel.background .tasklist button:active:hover label,
+.xfce4-panel .tasklist .label-focus,
+.xfce4-panel .tasklist .label-hidden {
+  color: #FFA500;
+  text-shadow: none;
+}
+
+.xfce4-panel.background .tasklist button:checked label,
+.xfce4-panel.background .tasklist button:active label {
+  color: #000000;
+}
+
+window.xfce4-screenshooter,
+window.screenshooter,
+.xfce4-screenshooter {
+  background: transparent;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
 }
